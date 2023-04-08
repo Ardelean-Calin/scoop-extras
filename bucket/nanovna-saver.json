@@ -1,0 +1,33 @@
+{
+    "version": "v0.5.5",
+    "description": "A multiplatform tool to save Touchstone files from the NanoVNA, sweep frequency spans in segments to gain more than 101 data points, and generally display and analyze the resulting data.",
+    "homepage": "https://github.com/NanoVNA-Saver/nanovna-saver",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/NanoVNA-Saver/nanovna-saver/releases/download/v0.5.5/NanoVNASaver.x64.zip"
+        },
+        "32bit": {
+            "url": "https://github.com/NanoVNA-Saver/nanovna-saver/releases/download/v0.5.5/NanoVNASaver.x86.zip"
+        }
+    },
+    "bin": "",
+    "shortcuts": [
+        [
+            "nanovna-saver.exe",
+            "NanoVNA Saver"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "note": "Thanks for using autoupdate, please test your updates!",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NanoVNA-Saver/nanovna-saver/releases/download/$version/NanoVNASaver.x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/NanoVNA-Saver/nanovna-saver/releases/download/$version/NanoVNASaver.x86.zip"
+            }
+        }
+    }
+}
