@@ -1,12 +1,12 @@
 {
-    "version": "0.6.14",
+    "version": "0.6.18",
     "description": "Modern music player focused on streaming from free sources",
     "homepage": "https://nuclear.js.org",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.14/nuclear.Setup.0.6.14.exe#/dl.7z",
-            "hash": "18c57481d93816838e46b980ac05ee6ad08ca737e142a51486d4a10684fdd598",
+            "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.18/nuclear.Setup.0.6.18.exe#/dl.7z",
+            "hash": "3c1c2465be3972dd4329635ea9cfe431fd6e284a9fb7f2c85bfd39bf13c8b0c2",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
