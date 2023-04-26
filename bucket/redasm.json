@@ -1,5 +1,5 @@
 {
-    "version": "2.1",
+    "version": "2.1.1",
     "description": "Interactive, multiarchitecture disassembler",
     "homepage": "https://redasm.io",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/REDasmOrg/REDasm/releases/download/v2.1/REDasm_2.1_Windows_x86_64.zip",
-            "hash": "e24de4892b8507a58daaf62194d82d0bc981c614a6c96530caba2ccc8039d696"
+            "url": "https://github.com/REDasmOrg/REDasm/releases/download/v2.1.1/REDasm_2.1.1_Windows_x86_64.zip",
+            "hash": "f507817b319a4196a4245f6f2bea59e092d01e279dc57b910938201042cfed6e"
         }
     },
     "pre_install": "Remove-Item \"$dir\\vc_red*\"",
