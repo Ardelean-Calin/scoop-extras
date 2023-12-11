@@ -1,5 +1,5 @@
 {
-    "version": "2.20.1",
+    "version": "2.20.7",
     "description": "Font manager",
     "homepage": "https://fontba.se",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://releases.fontba.se/win/FontBase-2.20.1.exe#/dl.7z",
-            "hash": "9d6fef50a5792e22017347f4fe6eda6284a5e16321d92a178deff5f4b1602a2d",
+            "url": "https://releases.fontba.se/win/FontBase-2.20.7.exe#/dl.7z",
+            "hash": "sha512:be6ee41dd598ec2f078882cbbef1d124297b24562a010ec845b84266ae71beef852952f125ac5b73b3e56720337eb4d2de971ae5d7c5d7fe482a72f71ab1bfd3",
             "pre_install": [
                 "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall*\" -Recurse"
